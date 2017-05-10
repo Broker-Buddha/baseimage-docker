@@ -1,4 +1,5 @@
-FROM ubuntu:16.04
+FROM buildpack-deps:xenial
+
 MAINTAINER Phusion <info@phusion.nl>
 
 COPY . /bd_build
